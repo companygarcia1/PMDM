@@ -7,7 +7,6 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"
-
     lateinit var txtTitle: TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         findViews()
         initializeViews()
+        //CAMBIO
     }
 
     private fun findViews(){
